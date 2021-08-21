@@ -82,7 +82,7 @@ img
     align-items: center
     display: flex
     flex-direction: column 
-    padding: 96px 0 
+    padding: 96px calc( 50% - 570px )
 .fetured__items
     padding-top: 48px   
     display: flex
@@ -125,3 +125,28 @@ img
     line-height: 19px
     color: $colortext
     border: 1px solid $colortext
+.advertising
+    padding: 104px calc( 50% - 570px )
+    background: #222224 
+    display: flex
+    flex-flow: row wrap
+    gap: 30px
+.advertising__h4
+    padding-top: 20px
+    font-size: 20px
+    line-height: 24px
+    color: #FBFBFB
+.advertising__p
+    padding-top: 16px
+    font-weight: 300
+    font-size: 14px
+    line-height: 17px
+    color: #FBFBFB
+    text-align: center
+
+.advertising__item
+    display: grid
+    grid-template: repeat(3, 1fr)/ 1fr
+    justify-items: center
+    gap: 0 30px
+    max-width: 360px
