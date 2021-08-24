@@ -99,6 +99,7 @@ img
     line-height: 17px
     color: #9F9F9F    
 .fetured__items__card
+    position: relative
     max-width: 360px
 .fetured__h4
     font-size: 13px
@@ -226,3 +227,35 @@ img
 .footer__right_ikons
     font-size: 32px
     color: $colortext2
+
+.footer__right_ikons:hover
+    color:$colortext
+.all__product:hover
+    background: $colortext
+    color: $colortext2
+.fetured__items__card:hover .fetured__add_to_cart
+    filter: brightness(50%)
+.fetured__items__card:hover .add_item_card
+    display: flex
+.add_item_card:hover 
+    color: $colorblack
+    background: $colortext2
+.add_item_card:hover path
+    fill: $colorblack
+.header_right_svg:hover
+    padding-bottom: 7px
+    border-bottom: 3px solid $colortext
+.add_item_card
+    position: absolute
+    top: 188px
+    left: 111px
+    font-size: 14px
+    line-height: 17px
+    color: $colortext2
+    width: 139px
+    height: 44px
+    display: none
+    justify-content: center
+    align-items: center
+    gap: 11px
+    border: 1px solid $colortext2
