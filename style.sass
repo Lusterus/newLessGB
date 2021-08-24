@@ -1,5 +1,6 @@
 $colortext: #F16D7F
-$bgcolor: #222222    
+$colortext2: #FBFBFB
+$colorblack: #222222    
 * 
     margin: 0
     padding: 0
@@ -14,7 +15,7 @@ img
     padding-right: calc( 50% - 570px )  
 .header
     height: 75px
-    background: $bgcolor 
+    background: $colorblack 
     display: flex
     justify-content: space-between
     align-items: center
@@ -92,7 +93,7 @@ img
 .fetured__h3
     font-size: 30px
     line-height: 36px
-    color: #222222
+    color: $colorblack
 .fetured__p
     font-size: 14px
     line-height: 17px
@@ -135,13 +136,13 @@ img
     padding-top: 20px
     font-size: 20px
     line-height: 24px
-    color: #FBFBFB
+    color: $colortext2
 .advertising__p
     padding-top: 16px
     font-weight: 300
     font-size: 14px
     line-height: 17px
-    color: #FBFBFB
+    color: $colortext2
     text-align: center
 
 .advertising__item
@@ -155,7 +156,7 @@ img
     font-size: 20px
     line-height: 24px
     text-align: center
-    color: #222224
+    color: $colorblack
 .emailg
     display: flex
     justify-content: space-between
@@ -179,16 +180,16 @@ img
     font-style: italic
     font-size: 20px
     line-height: 24px
-    color: #222224
+    color: $colorblack
 .emailg__h3
     font-weight: 700
     font-size: 24px
     line-height: 167.2%
-    color: #222224
+    color: $colorblack
 .emailg__h4
     font-size: 18px
     line-height: 167.2%
-    color: #222224
+    color: $colorblack
 .emailg__div_input input
     width: 256px
     background: #E1E1E1
@@ -206,8 +207,22 @@ img
     color: #FFFFFF
     background: #F16D7F
     border-top-right-radius: 50px
-    border-bottom-right-radius:  50px   
-    
+    border-bottom-right-radius:  50px 
+.footer
+    min-height: 80px
+    background: #222224
+    display: flex
+    justify-content: space-between
+    align-items: center
 
-
-    
+.footer__left
+    max-width: 332px
+    font-size: 16px
+    line-height: 19px
+    color: $colortext2
+.footer__right
+    display: flex
+    gap: 8px
+.footer__right_ikons
+    font-size: 32px
+    color: $colortext2
