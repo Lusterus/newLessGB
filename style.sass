@@ -1,6 +1,5 @@
-$colortext: #F16D7F
-$colortext2: #FBFBFB
-$colorblack: #222222    
+@import vars
+@import mixin
 * 
     margin: 0
     padding: 0
@@ -162,8 +161,12 @@ img
     display: flex
     justify-content: space-between
     background: url(img/bg_subscribe.jpg) no-repeat
-    background-size: 100%
-    background-position: bottom center  
+    background-size: cover
+    background-position: bottom center 
+.emailg_email     
+    padding: 25px
+    font-size: 14px
+    line-height: 17px
 
 
 .emailg__figure
@@ -259,3 +262,4 @@ img
     align-items: center
     gap: 11px
     border: 1px solid $colortext2
+@import catalog
