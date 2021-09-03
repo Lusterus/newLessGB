@@ -15,7 +15,9 @@
         font-weight: 300
         font-size: 14px
         line-height: 17px
-        color: #636363         
+        color: #636363  
+        &:hover
+            color: $colortext       
     &__li
         list-style-type: none  
         &:not(:last-of-type)::after
@@ -24,5 +26,112 @@
             padding-right: 5px   
         &:last-of-type a
             font-weight: bold
-            color: $colortext                   
-   
+            color: $colortext    
+.filter-sort
+    padding-top: 36px
+    padding-bottom: 16px
+    display: flex
+    gap: $gap
+
+.filter
+    width: $contentCol4
+    position: relative
+
+    &__details
+        padding: 12px 16px
+        position: absolute
+        width: 100%
+        z-index: 1
+        box-sizing: border-box
+        &[open]
+            background: #FFFFFF
+            box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+        &[open] .filter__summary
+            color: $colortext
+
+        &[open] .filter__summary path
+            fill: $colortext
+
+    &__summary
+        display: flex
+        align-items: center
+        gap: 11px
+
+    &__category
+        border-left: 5px solid $colortext
+
+        padding-top: 11px
+
+        &_border-bottom
+            border-bottom: 1px solid #EBEBEB
+            padding-bottom: 11px
+            padding-left: 11px
+
+    &__details-in
+        padding-top: 16px
+
+        &[open] .filter__category
+            color: $colortext
+
+    &__box-link
+        display: flex
+        flex-direction: column
+        gap: 11px
+        padding: 24px 16px
+
+    &__link
+        font-size: 14px
+        line-height: 17px
+        color: #6F6E6E
+        &:hover
+            color: $colortext
+.sort
+    display: flex
+    gap: 28px
+    &__summary
+        color: #6F6E6E
+        height: 17px
+        font-size: 14px
+        line-height: 17px
+        svg
+            padding-left: 10px
+    &__details
+        padding-top: 12px
+        position: relative
+    &__box
+        padding: 8px 0px 8px 8px
+        gap: 8px       
+        display: flex
+        flex-direction: column
+        width: 79px
+        background: #FFFFFF
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+        box-sizing: border-box
+        margin-top: 5px
+        position: absolute
+        z-index: 1
+    &__item
+        display: flex
+        gap: 9px
+        align-items: center
+        
+.numberPage
+    display: flex
+    align-items: center
+    padding: 0 16px
+    margin-top: 40px
+    margin-bottom: 96px
+    height: 40px
+    border: 1px solid #EBEBEB
+    &__numberBox
+        padding: 0 16px
+        display: flex
+        align-items: center
+        gap: 16px
+        height: 100%
+    &__Order
+        font-weight: 300
+        font-size: 16px
+        line-height: 19px
+        &:hover
+            color: $colortext
