@@ -1,0 +1,105 @@
+.emailg_margin
+    margin-top: 128px
+.slider
+    &__image
+        display: flex
+        justify-content: center
+        padding: 11px 0 42px 
+        background: #F7F7F7
+    &__button
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 47px
+        height: 47px
+        background: rgba(42, 42, 42, 0.15)
+.slider_position
+    position: relative
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+.slider__button:hover path
+    fill: $colortext
+
+.slider__button_left
+    position: absolute
+    left: 0
+    top: 50%    
+    transform: translateY(-50%) 
+.slider__button_right
+    position: absolute
+    right: 0
+    top: 50%
+    transform: translateY(-50%) 
+.info_product
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 64px 0
+    background: #FFFFFF
+    border: 1px solid #EAEAEA
+    &__h3
+        font-weight: 300
+        font-size: 14px
+        line-height: 17px
+        color: $colortext
+    &__h2
+        font-weight: 300
+        font-size: 18px
+        line-height: 22px
+        color: #4D4D4D     
+        margin-top: 12px
+    &__p
+        max-width: 556px
+        font-weight: 300
+        font-size: 14px
+        line-height: 17px
+        text-align: center
+        color: #5E5E5E    
+        margin-top: 48px
+    &__price
+        font-weight: 300
+        font-size: 24px
+        line-height: 29px
+        color: $colortext          
+        margin-top: 32px      
+    &__redLine
+        margin-top: 12px
+        max-width: 64px
+        height: 3px
+        background: #EF5B70  
+    &__greenLine
+        margin: 64px 0
+        width: 648px
+        height: 1px
+        background: #EAEAEA  
+    &__filtrs
+        display: flex
+        gap: 24px
+        align-items: center
+    &__summary
+        font-size: 14px
+        line-height: 17px
+        color: #6F6E6E
+    &__details svg
+        margin-left: 8px
+.info_product_position
+    position: relative
+    z-index: 1
+    margin: -56px calc( 50% - 570px ) 80px calc( 50% - 570px )
+.button_add_to_cart
+    display: flex
+    align-items: center
+    margin-top: 48px
+    padding: 14px 56px 14px 24px 
+    font-size: 16px
+    line-height: 19px
+    color: $colortext
+    border: 1px solid $colortext
+    & svg
+        margin-right: 24px
+    &:hover
+        background: $colortext
+        color: $colortext2
+    &:hover path
+        fill: $colortext2  
+ 
+  

@@ -3,10 +3,11 @@
 * 
     margin: 0
     padding: 0
+    transition: all .3s 
 body
     font-family: 'Lato', sans-serif
 a
-    text-decoration: none  
+    text-decoration: none 
 img
     max-width: 100% 
 .center
@@ -164,7 +165,7 @@ img
     background-size: cover
     background-position: bottom center 
 .emailg_email     
-    padding: 25px
+    padding-left: 25px
     font-size: 14px
     line-height: 17px
 
@@ -236,8 +237,12 @@ img
 .all__product:hover
     background: $colortext
     color: $colortext2
+.fetured__add_to_cart
+    transition: transform .3s
 .fetured__items__card:hover .fetured__add_to_cart
     filter: brightness(50%)
+    transform: scale(1.01)
+    box-shadow: 2px 2px 10px $colorblack
 .fetured__items__card:hover .add_item_card
     display: flex
 .add_item_card:hover 
@@ -245,9 +250,6 @@ img
     background: $colortext2
 .add_item_card:hover path
     fill: $colorblack
-.header_right_svg:hover
-    padding-bottom: 7px
-    border-bottom: 3px solid $colortext
 .add_item_card
     position: absolute
     top: 188px
@@ -267,3 +269,4 @@ summary
 summary::-webkit-details-marker
     display: none
 @import catalog
+@import product
