@@ -9,6 +9,15 @@ body
     font-family: 'Lato', sans-serif
 a
     text-decoration: none 
+input
+  &[type='number']
+    -moz-appearance: textfield
+
+  &::-webkit-outer-spin-button, &::-webkit-inner-spin-button
+    -webkit-appearance: none
+input[type="search"]
+  &::-webkit-input-placeholder, &::-moz-placeholder
+    color: #B1B1B1
 img
     max-width: 100% 
 input
@@ -275,3 +284,4 @@ summary::-webkit-details-marker
 @import catalog
 @import product
 @import cart
+@import reg

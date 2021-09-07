@@ -18,6 +18,7 @@
         <div class="header center">
         <div class="header__left">
             <a href="index.html"><img src="img/header_logo.svg" alt="logo"></a>
+
             <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M19.0596 17.6259C20.6713 15.8658 21.6282 13.6048 21.7698 11.2225C21.9113 8.84018 21.2288 6.48173 19.8369 4.54318C18.445 2.60463 16.4285 1.20404 14.126 0.576619C11.8234 -0.0508009 9.3751 0.13316 7.19217 1.09761C5.00923 2.06205 3.22463 3.74825 2.13804 5.87302C1.05145 7.9978 0.729054 10.4318 1.225 12.7661C1.72094 15.1005 3.00501 17.1932 4.86158 18.6927C6.71814 20.1922 9.03413 21.0072 11.4206 21.0009C13.673 21.004 15.8645 20.27 17.6606 18.9109L25.4086 26.7179C25.4941 26.807 25.5965 26.8781 25.7099 26.927C25.8232 26.9759 25.9452 27.0017 26.0686 27.0029C26.1923 27.0033 26.3148 26.9782 26.4283 26.9292C26.5419 26.8801 26.6441 26.8082 26.7286 26.7179C26.9025 26.537 26.9997 26.2958 26.9997 26.0449C26.9997 25.794 26.9025 25.5528 26.7286 25.3719L19.0596 17.6259ZM2.88662 10.5009C2.89946 8.81563 3.41094 7.17187 4.35659 5.77685C5.30224 4.38183 6.63972 3.29801 8.20044 2.662C9.76115 2.02599 11.4752 1.86627 13.1266 2.20298C14.7779 2.53969 16.2926 3.35775 17.4797 4.55404C18.6668 5.75033 19.4732 7.27129 19.7972 8.92519C20.1212 10.5791 19.9483 12.2919 19.3002 13.8476C18.6522 15.4034 17.5581 16.7325 16.1559 17.6674C14.7536 18.6023 13.1059 19.1011 11.4206 19.1009C9.14916 19.0901 6.97482 18.1784 5.37484 16.566C3.77486 14.9537 2.87998 12.7724 2.88662 10.5009Z" fill="#E8E8E8"/>
                 </svg>
@@ -39,92 +40,85 @@
     </header>
     <section>
         <div class="afterHeader center">
-            <h2 class="afterHeader__h2">SHOPPING CART</h2>
+            <h2 class="afterHeader__h2">REGISTRATION</h2>
         </div>
     </section>
-<section>
-        <div class="basket center basket_position">
-            <div class="basket__cart">
-                <img src="img/cart_1.jpg" alt="product">
-                <div class="basket__cartText">
-                    <div class="basket__left">
-                        <h2 class="basket__h2">MANGO  PEOPLE  T&nbsp;-&nbsp;SHIRT</h2>
-                        <p class="basket__price">Price: <span class = "basket__redPrice">$300</span></p>
-                        <p class="basket__price">
-                            Color: Red
-                        </p>
-                        <p class="basket__price">
-                            Size: Xl	
-                        </p>
-                        <p class="basket__price">
-                            Quantity: <input class = "basket__inputCount" type="number">
-                        </p>
+    <section>
+        <form action="#">
+            <div class="reg center">
+                <div class="reg__left">
+                    <h4 class="reg__h4">Your Name</h4>
+                    <input type="text" class="reg__inputText" placeholder="First Name">
+                    <input type="text" class="reg__inputText" placeholder="Last Name">
+                    <div class="reg__forLabel">
+                        <label class = "reg__label">
+                            <input for = "1" name = "rad" type="radio" class="reg__radio"> Male
+                        </label>
+                        <label class = "reg__label">
+                            <input for = "2" name = "rad" type="radio" class="reg__radio"> Female
+                        </label>
                     </div>
-                    <div class="basket__right">
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z" fill="#575757"/>
-                        </svg>
-                    </div>  
-                </div>
-            </div>
-            <form action="#">
-                <div class="basket__shopping_adress">
-                    <div class="basket__h3">
-                        SHIPPING ADRESS
+                    <h4 class="reg__h4">Login details</h4>
+                    <input type="email" class="reg__inputText" placeholder="Email" required pattern = "\S+@[a-z]+.[a-z]+">
+                    <input type="password" class="reg__inputText" placeholder="Password">
+                    <div class="reg__pBottom">
+                        Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters
                     </div>
-                    <input type="text" class="basket__inputAdress" placeholder="Bangladesh"> 
-                    <input type="text" class="basket__inputAdress" placeholder="State"> 
-                    <input type="text" class="basket__inputAdress" placeholder="Postcode / Zip"> 
-                    <a href="#" class="basket__aAdress">GET A QUOTE</a>
-               </div>
-            </form>
-           <div class="basket__cart">
-            <img src="img/cart_2.jpg" alt="product">
-            <div class="basket__cartText">
-                <div class="basket__left">
-                    <h2 class="basket__h2">MANGO  PEOPLE  T&nbsp;-&nbsp;SHIRT</h2>
-                    <p class="basket__price">Price: <span class = "basket__redPrice">$300</span></p>
-                    <p class="basket__price">
-                        Color: Red
-                    </p>
-                    <p class="basket__price">
-                        Size: Xl	
-                    </p>
-                    <p class="basket__price">
-                        Quantity: <input class = "basket__inputCount" type="number">
-                    </p>
+                        <a href="#" class="reg__submitButton">
+                            JOIN NOW
+                        </a>
                 </div>
-                <div class="basket__right">
-                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z" fill="#575757"/>
-                    </svg>
-                </div> 
-            </div>
-            
-            </div>  
-            <div class="basket__buyProduct">
-                <div class="basket__buyBlock">
-                    <h4 class="basket__h4">SUB TOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$900</h4>
-                    <h3 class="basket__h3">GRAND TOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="basket__priceSpan">$900</span></h3>
+                <div class="reg__right">
+                    <div class="reg__h3">
+                        LOYALTY HAS ITS PERKS
+                    </div>
+                    <div class="reg__h3">
+                        Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:
+                    <div class="reg__boxForLi">
+                        <div class="reg__liLoyalty">
+                            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.8035 0H18.0904C17.8502 0 17.6222 0.111827 17.4752 0.303176L7.3702 13.2826L2.52481 7.05754C2.45151 6.96318 2.35808 6.88688 2.25153 6.83438C2.14499 6.78187 2.0281 6.75451 1.90963 6.75437H0.196467C0.032258 6.75437 -0.0584248 6.94572 0.0420614 7.07494L6.75503 15.6981C7.06874 16.1006 7.67166 16.1006 7.98782 15.6981L19.9579 0.318087C20.0584 0.191349 19.9677 0 19.8035 0Z" fill="black"/>
+                                </svg>     
+                                15% off welcome offer
+ 
+                        </div>
+                        <div class="reg__liLoyalty">
+                            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.8035 0H18.0904C17.8502 0 17.6222 0.111827 17.4752 0.303176L7.3702 13.2826L2.52481 7.05754C2.45151 6.96318 2.35808 6.88688 2.25153 6.83438C2.14499 6.78187 2.0281 6.75451 1.90963 6.75437H0.196467C0.032258 6.75437 -0.0584248 6.94572 0.0420614 7.07494L6.75503 15.6981C7.06874 16.1006 7.67166 16.1006 7.98782 15.6981L19.9579 0.318087C20.0584 0.191349 19.9677 0 19.8035 0Z" fill="black"/>
+                                </svg>
+                                Free shipping, returns and exchanges on all orders
+
+
+                        </div>
+                        
+                        <div class="reg__liLoyalty">
+                            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.8035 0H18.0904C17.8502 0 17.6222 0.111827 17.4752 0.303176L7.3702 13.2826L2.52481 7.05754C2.45151 6.96318 2.35808 6.88688 2.25153 6.83438C2.14499 6.78187 2.0281 6.75451 1.90963 6.75437H0.196467C0.032258 6.75437 -0.0584248 6.94572 0.0420614 7.07494L6.75503 15.6981C7.06874 16.1006 7.67166 16.1006 7.98782 15.6981L19.9579 0.318087C20.0584 0.191349 19.9677 0 19.8035 0Z" fill="black"/>
+                                </svg>
+                                $10 off a purchase on your birthday
+                        </div>
+                        <div class="reg__liLoyalty">
+                            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.8035 0H18.0904C17.8502 0 17.6222 0.111827 17.4752 0.303176L7.3702 13.2826L2.52481 7.05754C2.45151 6.96318 2.35808 6.88688 2.25153 6.83438C2.14499 6.78187 2.0281 6.75451 1.90963 6.75437H0.196467C0.032258 6.75437 -0.0584248 6.94572 0.0420614 7.07494L6.75503 15.6981C7.06874 16.1006 7.67166 16.1006 7.98782 15.6981L19.9579 0.318087C20.0584 0.191349 19.9677 0 19.8035 0Z" fill="black"/>
+                                </svg>
+                                Early access to products
+                        </div>
+                        <div class="reg__liLoyalty">
+                            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.8035 0H18.0904C17.8502 0 17.6222 0.111827 17.4752 0.303176L7.3702 13.2826L2.52481 7.05754C2.45151 6.96318 2.35808 6.88688 2.25153 6.83438C2.14499 6.78187 2.0281 6.75451 1.90963 6.75437H0.196467C0.032258 6.75437 -0.0584248 6.94572 0.0420614 7.07494L6.75503 15.6981C7.06874 16.1006 7.67166 16.1006 7.98782 15.6981L19.9579 0.318087C20.0584 0.191349 19.9677 0 19.8035 0Z" fill="black"/>
+                                </svg>
+                                Exclusive offers & rewards
+                        </div>
+                    </div>
+                    
                 </div>
-                <a href="#" class="basket__aBuyProduct">PROCEED TO CHECKOUT</a>
-            </div>      
-        </div>
-        
-        <div class="blockForNavButton center">
-            <div class="blockForNavButton__width">
-                <a href="#" class="blockForNavButton__navButton">
-                    CLEAR SHOPPING CART
-                </a>  
-                <a href="#" class="blockForNavButton__navButton">
-                    CONTINUE SHOPPING
-                </a>
             </div>
-        </div>  
+        </form>
+
     </section>        
     </section>
     <section>   
-        <div class="emailg center emailg_margin">
+        <div class="emailg center">
             <div class="emailg__left">
                 <figure class = "emailg__figure">
                     <img src="img/girl_say.png" alt="girl say">
