@@ -1,0 +1,113 @@
+.basket
+    display: grid
+    grid-template: repeat(2, 306px)/ 652px 360px
+    gap: 40px 128px  
+    &__cartText
+        display: flex
+        justify-content: space-between
+        padding: 22px 22px 62px 32px
+        width: 100%
+        background: #FFFFFF
+    &__left
+        display: flex
+        width: 222px
+    &__h2
+        font-size: 24px
+        line-height: 29px
+        color: $colorblack
+        margin-bottom: 42px
+    &__price
+        font-size: 22px
+        line-height: 26px
+        color: #575757
+        padding-top: 6px
+    &__redPrice
+        color: $colortext
+    &__cart
+        display: flex
+        filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13))
+    &__left
+        display: flex
+        flex-direction: column
+    &__inputCount
+        margin-left: 24px
+        width: 44px
+        height: 24px
+        font-size: 18px
+        line-height: 22px
+        color: #656565    
+        gap: 40px 128px  
+        text-align: center  
+    &__shopping_adress
+        display: flex
+        flex-direction: column
+        gap: 20px
+        justify-content: center
+    &__h3
+        font-weight: 300
+        font-size: 16px
+        line-height: 19px
+        color: $colorblack  
+    &__inputAdress
+        background: #FFFFFF   
+        border: 1px solid $dardBorder
+        height: 42px
+        width: 360px
+        font-weight: 300
+        font-size: 13px
+        line-height: 16px
+        padding-left: 16px
+        &:focus 
+            color: #B1B1B1
+            
+    &__aAdress
+        padding: 10px 14px
+        font-weight: 300
+        font-size: 11px
+        line-height: 13px
+        color: #4A4A4A
+        border: 1px solid $dardBorder
+        height: 36px
+        width: 102px
+        box-sizing: border-box
+    &__buyProduct
+        display: flex
+        flex-direction: column        
+        padding: 36px 36px 42px 42px
+        background: #F5F3F3
+        height: 216px
+    &__h4
+        font-size: 11px
+        line-height: 13px 
+        color: $colorblack
+        font-weight: 400
+    &__priceSpan
+        font-weight: 900
+        color: $colortext     
+    &__buyBlock    
+        display: flex
+        flex-direction: column
+        text-align: end
+        padding-bottom: 21px
+        gap: 12px
+        border-bottom: 1px solid #E2E2E2
+    &__aBuyProduct
+        padding: 16px 42px 16px 42px
+        background: $colortext
+        color: #FFFFFF
+        margin-top: 16px
+.basket_position
+    margin-top: 96px
+.blockForNavButton
+    padding-top: 72px
+    &__width
+        width: 652px
+        display: flex
+        justify-content: space-between        
+    &__navButton
+        padding: 16px 40px
+        font-weight: 300
+        font-size: 14px
+        line-height: 17px
+        color: #000000
+        border: 1px solid $dardBorder
