@@ -32,6 +32,8 @@ input
     display: flex
     justify-content: space-between
     align-items: center
+#clicker
+    display: none
 .header__left
     display: flex
     align-items: center
@@ -281,6 +283,22 @@ summary
   display: block
 summary::-webkit-details-marker
     display: none
+.box
+    position: relative
+.header_right__menu
+    position: absolute
+    top: -300px
+    right: 0
+    min-width: 232px  
+    height: 100px  
+    background: #FFFFFF
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+    overflow: hidden
+    & a
+        display:  none
+#clicker:checked ~.header_right__menu
+    top: 75px
+
 @import catalog
 @import product
 @import cart
